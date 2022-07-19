@@ -1,0 +1,113 @@
+:root {
+    --gradient-img: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    --main-color: #dfe793;
+    --second-color: #b18fe4;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+::before, 
+::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ a {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+
+ }
+ html, 
+ body { 
+    height: 100%;
+    line-height: 1;
+    font-size: 24px;
+    font-family: sans-serif;
+    background: var(--gradient-img);    
+    text-align: center;
+}
+.header {
+    padding: 30px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    padding: 30px;
+    flex: 1 1 auto;
+}
+.footer {
+    padding: 30px;
+}
+h1 {
+    font-size: 36px;
+    margin-top: 30px;
+}
+h2 {
+    font-size: 60px;
+    margin: auto 0px;
+}
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+}
+p {
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+#SMtext {
+    display: flex;
+    margin: 30px 0;
+
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    letter-spacing: 1.5px;
+}
+.contact-BTN {
+    position: relative;
+    margin: 20px;
+    padding: 20px 15px;
+    color: var(--main-color);
+    background-color: var(--second-color);
+    box-shadow: var(--box-shadow);
+    transition: all 2s ease 0s;
+
+
+}
+.contact-BTN:hover {
+    top: 2px;
+    background: var(--main-color);
+    color: var(--second-color);
+    box-shadow: 2px 5px 5px rgb(#b18fe4);
+    transition: all 2s ease 0s;
+}
+.about-BTN {
+    position: relative;
+    margin: 20px;
+    padding: 20px 15px;
+    color: var(--second-color);
+    background-color: var(--main-color);
+    box-shadow: var(--box-shadow);
+    transition: all 2s ease 0s;
+}
+.about-BTN:hover {
+    top: 2px;
+    background: var(--second-color);
+    color: var(--main-color);
+    box-shadow: 2px 5px 5px rgb(#b18fe4);
+    transition: all 2s ease 0s;
+}
+
