@@ -63,12 +63,12 @@ p {
     
 }
 .top {
---offset: 30px;
+--offset: 50px;
 
-    place-self:end;
-    position:sticky;
-    bottom:20px;
-    margin-top: calc(100vh + var(--offset));
+    place-self: end;
+    position: sticky;
+    bottom: 20px;
+    margin-top: calc(150vh + var(--offset));
 
     width: 25px;
     aspect-ratio: 1;
