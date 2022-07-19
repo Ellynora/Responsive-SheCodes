@@ -63,7 +63,7 @@ p {
     
 }
 .top {
---offset: 50px;
+--offset: 30px;
 
     place-self:end;
     position:sticky;
@@ -78,7 +78,7 @@ p {
 .top:before {
     content: "";
     position: absolute;
-    inset: 30%;
+    inset: 20%;
     transform: translateY(20%) rotate(-45deg);
     border-top: 5px solid rgb(78, 76, 76);
     border-right: 5px solid rgb(78, 76, 76);
