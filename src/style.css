@@ -68,7 +68,7 @@ p {
     place-self: end;
     position: sticky;
     bottom: 20px;
-    margin-top: calc(150vh + var(--offset));
+    margin-top: calc(100vh + var(--offset));
 
     width: 25px;
     aspect-ratio: 1;
