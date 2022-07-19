@@ -102,10 +102,11 @@ p {
     padding: 30px;
     text-align: left;
 }
+
 #homeLink:hover {
     transition: all 2s ease 0s;
-    top: 2px;
-    box-shadow: 2px 5px 5px rgb(#b18fe4);
+    top: 5px;
+    color: darkgray;
 }
 .main {
     padding: 30px;
@@ -113,12 +114,13 @@ p {
     
 }
 .footer {
-
     text-align: center;
-    
+ 
 }
 #contact {
     padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 #btns {
     display: flex;
